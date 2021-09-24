@@ -12,15 +12,23 @@
         .color1 {
             background-color: {{color1}};
         }
+
         .color2 {
             background-color: {{color2}};
+        }
+
+        h1{
+            color:{{color2}};
+            background-color: {{color1}}
         }
     </style>
 
 </head>
 
 <body>
-
+    <div class="title">
+        <h1>*** Checkerboard***</h1>
+    </div>
     <div class="container">
         <table>
             {% for i in range(filas): %}

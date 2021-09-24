@@ -4,6 +4,22 @@
     box-sizing: content-box;
 }
 
+.title{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 0.5em 0.5em;
+    display: inline-block;
+    align-self: center;
+}
+
 .container{
     margin-top: 40px;
     display: flex;
